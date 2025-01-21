@@ -4,7 +4,19 @@ This project leverages machine learning and deep learning techniques to classify
 
 ---
 
-## **1. Data Collection and Preprocessing**
+## Technologies Used
+- **Programming Language:** Python 3
+- **Libraries and Frameworks:**
+  - **NumPy:** Efficient numerical computations.
+  - **Pandas:** Data manipulation and analysis.
+  - **Matplotlib:** Data visualization for accuracy and loss plots.
+  - **Scikit-learn:** Dataset handling, preprocessing (StandardScaler), and train-test splitting.
+  - **TensorFlow/Keras:** Neural network construction, training, and evaluation.
+- **Development Environment:** Google Colab for code execution and GPU acceleration.
+
+---
+
+## Data Collection and Preprocessing
 - **Dataset:** Breast cancer dataset from the `sklearn.datasets` library.
 - **Data Handling:**
   - Loaded data into a pandas DataFrame for analysis.
@@ -18,7 +30,7 @@ This project leverages machine learning and deep learning techniques to classify
 
 ---
 
-## **2. Neural Network Construction**
+## Neural Network Construction
 - **Framework:** TensorFlow and Keras.
 - **Model Architecture:**
   - Input layer: Flatten layer for input features (30 features).
@@ -29,7 +41,7 @@ This project leverages machine learning and deep learning techniques to classify
 
 ---
 
-## **3. Model Evaluation and Visualization**
+## Model Evaluation and Visualization
 - **Performance Metrics:**
   - Evaluated model accuracy on test data.
   - Visualized training and validation accuracy/loss across epochs to assess model performance.
@@ -37,7 +49,7 @@ This project leverages machine learning and deep learning techniques to classify
 
 ---
 
-## **4. Predictor System**
+## Predictor System
 - Developed a system to classify new data points as benign or malignant:
   - **Example Input:** A feature vector representing tumor characteristics.
   - **Steps:**
@@ -48,17 +60,5 @@ This project leverages machine learning and deep learning techniques to classify
 
 ---
 
-## **5. Technologies Used**
-- **Programming Language:** Python 3
-- **Libraries and Frameworks:**
-  - **NumPy:** Efficient numerical computations.
-  - **Pandas:** Data manipulation and analysis.
-  - **Matplotlib:** Data visualization for accuracy and loss plots.
-  - **Scikit-learn:** Dataset handling, preprocessing (StandardScaler), and train-test splitting.
-  - **TensorFlow/Keras:** Neural network construction, training, and evaluation.
-- **Development Environment:** Google Colab for code execution and GPU acceleration.
-
----
-
-This notebook provides a streamlined approach to build and evaluate a neural network for medical data classification, with clear steps for preprocessing, model development, and deploying a predictive system.
+This code provides a streamlined approach to build and evaluate a neural network for medical data classification, with clear steps for preprocessing, model development, and deploying a predictive system.
 
